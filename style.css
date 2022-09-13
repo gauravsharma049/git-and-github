@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+
+}
+.logo{
+    height: 50px;
+    background-image: url("https://digi.erawebstudio.com/assets/images/shapes/service-2-i-1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.header{
+    height: 100vh;
+    background-image: url("https://www.animaker.com/static/assets/images/animakerhome/animated_video_making_software.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.loginbtn{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 30px;
+}
+.anim{
+    display: flex;
+    position: sticky;
+    bottom: -30px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+body{
+    background-color: blue;
+}
+.center{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    z-index: 1;
+}
+.anim{
+    display: flex;
+    position: fixed;
+    bottom: -30px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.child{
+    opacity: 0;
+}
+
+.anim :nth-child(1){
+    width: 15px;
+    height: 15px;
+    border: 5px solid rgb(28, 233, 185);
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px rgba(0, 255, 42, 0.401);
+    animation: animation1 30s linear 3s infinite;
+}
+.anim :nth-child(2){
+    width: 5px;
+    height: 5px;
+    border: 2px solid rgb(209, 233, 28);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(53, 6, 223, 0.401);
+    animation: animation1 30s linear 20s infinite;
+}
+.anim :nth-child(3){
+    width: 20px;
+    height: 20px;
+    border: 5px solid rgb(28, 172, 233);
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px rgba(187, 234, 99, 0.401);
+    animation: animation1 30s linear 12s infinite;
+}
+.anim :nth-child(4){
+    width: 10px;
+    height: 10px;
+    border: 5px solid rgb(233, 154, 28);
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px rgba(99, 200, 234, 0.401);
+    animation: animation1 30s linear 20s infinite;
+}
+.anim :nth-child(5){
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgb(233, 28, 216);
+    /* border-radius: 50%; */
+    box-shadow: 0 0 0 10px rgba(41, 226, 13, 0.401);
+    transform: rotate(45deg);
+    animation: animation1 30s linear 0s infinite;
+}
+.anim :nth-child(6){
+    width: 5px;
+    height: 5px;
+    border: 3px solid rgb(233, 28, 151);
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(124, 234, 99, 0.401);
+    animation: animation1 30s linear 15s infinite;
+}
+.anim :nth-child(7){
+    width: 15px;
+    height: 15px;
+    border: 5px solid rgb(233, 154, 28);
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px rgba(234, 99, 99, 0.401);
+    animation: animation1 30s linear 3s infinite;
+}
+.anim :nth-child(8){
+    width: 5px;
+    height: 5px;
+    border: 2px solid rgb(9, 144, 41);
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(218, 126, 126, 0.401);
+    animation: animation1 30s linear 8s infinite;
+}
+.anim :nth-child(9){
+    width: 20px;
+    height: 20px;
+    border: 5px solid rgb(209, 233, 28);
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px rgba(234, 99, 99, 0.401);
+    animation: animation1 30s linear 16s infinite;
+}
+.anim :nth-child(10){
+    width: 10px;
+    height: 10px;
+    border: 5px solid rgb(42, 28, 233);
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px rgba(234, 99, 216, 0.401);
+    animation: animation1 30s linear 0s infinite;
+    
+    
+}
+
+@keyframes animation1{
+    0%{
+        transform: translate(0,0) rotate(45deg);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh) rotate(720deg);
+        opacity: 0;
+    }
+}
